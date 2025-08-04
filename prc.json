@@ -1,1 +1,24 @@
-
+{
+  "systems": {
+    "system1": {
+      "code": 1
+    },
+    "system2": {
+      "code": 2
+    }
+  },
+  "actions": {
+    "1": {
+      "type": "redirect",
+      "target": "https://google.com/"
+    },
+    "2": {
+      "type": "log",
+      "message": "Action 2 triggered"
+    },
+    "3": {
+      "type": "api-call",
+      "endpoint": "/api/special-action"
+    }
+  }
+}
